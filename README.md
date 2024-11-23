@@ -1,4 +1,5 @@
 # connorhyatt.com
-###Personal Portfolio
+### Personal Portfolio
 Website showcasing my academic and professional background made with HTML, CSS and JavaScript.
-Availibe on connorhyatt.com
+
+Domain located at connorhyatt.com
