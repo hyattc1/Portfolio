@@ -5516,6 +5516,33 @@ button.bg-dark:focus {
 .rounded-circle {
   border-radius: 50% !important; }
 
+.circle {
+  --circle-size: 40px;
+  position: fixed;
+  height: var(--circle-size);
+  width: var(--circle-size);
+  border: 2px solid #ffc107;
+  border-radius: 100%;
+  top: calc(var(--circle-size) / 2 * -1);
+  left: calc(var(--circle-size) / 2 * -1);
+  pointer-events: none;
+  z-index: 9999;
+}
+
+.custom-link {
+  color: white;
+  /* Default text color */
+  text-decoration: none;
+  /* Remove underline by default */
+}
+
+.custom-link:hover {
+  color: #ffc107 !important;
+  /* Change to #ffc107 on hover */
+  text-decoration: underline;
+  /* Optional: Add underline on hover */
+}
+
 .rounded-pill {
   border-radius: 50rem !important; }
 
@@ -5870,6 +5897,10 @@ button.bg-dark:focus {
   -ms-flex-item-align: stretch !important;
   -ms-grid-row-align: stretch !important;
   align-self: stretch !important; }
+
+.align-self-stretch.box p {
+  color: white;
+}
 
 @media (min-width: 576px) {
   .flex-sm-row {
