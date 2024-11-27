@@ -939,7 +939,7 @@ hr.new1{
 .underline {
   width: 100%;
   height: 4px;
-  background-image: linear-gradient(to right, #EAEAEA 0%, rgb(244, 244, 125) 20%,#EAEAEA 50%, #6E5191 100%); /*this is the horizontal resume line ------------------------------------------------*/
+  background-image: linear-gradient(to right, #6E5191 0%, #6E5191 20%,#6E5191 50%, #6E5191 100%); /*this is the horizontal resume line ------------------------------------------------*/
   margin-top: 5px;
   opacity: 50%; }
   .col-md-1 {
